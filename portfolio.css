@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(08, 08, 08);
+  color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: #67cdfc;
+}
+h2{
+  color: #00cccc;
+}
+p{
+  color: #eceff1;
+}
+a{
+  color: #00bfff;
+  text-decoration: underline;
+}
+a:hover,
+a:focus {
+  color:#cc0000 ;
+  outline: none;
+}
+a:focus {
+  outline: 2px solid #00bfff;
+  outline-offset: 2px;
+}
+.profile-pic {
+  width: 150px;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(105, 161, 233, 0.5);
+  transition: transform 0.3s ease;
+}
+.profile-pic:hover {
+  transform: scale(1.05);
+  
+}
+
