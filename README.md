@@ -45,7 +45,7 @@ index.html --> Main HTML file
 📬 Contact
 Feel free to reach out:
 
-📧 Email: brayan@example.com
+📧 Email: murangiri.brayan@gmail.com 
 
 🔗 LinkedIn: linkedin.com/in/brayanmurangiri
 
