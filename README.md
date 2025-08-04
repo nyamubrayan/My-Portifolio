@@ -22,7 +22,7 @@ index.html --> Main HTML file
 ## 🚀 Technologies Used
 
 - HTML5
-- CSS3 (Inline styling for simplicity)
+- CSS3 
 - Accessibility best practices (WAI-ARIA)
 - Responsive Web Design principles
 
