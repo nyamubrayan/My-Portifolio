@@ -1,7 +1,7 @@
 # Brayan Murangiri Nyamu - Developer Portfolio
 
 Welcome to my personal portfolio website!  
-This project showcases my skills, projects, and background as a Full Stack Web Developer.
+It covers my educational background, programming languages am currently learning, my interests, projects and contacts. The project is inteded to showcase my skills in HTML and CSS and actively participate in my first hackerthon for Power Learn Peoject Acadamy.
 
 ## 🌐 Live Demo
 
