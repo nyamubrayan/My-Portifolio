@@ -514,73 +514,80 @@ main {
     height: 22px;
   }
 }
+
 .projects-section {
-  width: 100%;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #0b0c10, #1f1f2e);
-  padding: 4rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: #0f0f1a;
   color: #e0f7ff;
+  padding: 3rem 2rem;
+  width: 90%;
+  max-width: 1100px;
+  margin: 2rem auto 3.5rem auto;
   border-radius: 14px;
+  box-shadow: 0 0 20px #0077cc, 0 0 40px #004488 inset;
+  animation: glowPulse 3s infinite alternate;
+  text-align: center;
   box-sizing: border-box;
 }
+
 .projects-section h2 {
   color: #00ccff;
   font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   width: 100%;
-  max-width: 1100px;
   margin: 0 auto;
 }
+
 .project-card {
-  background: #181c2f;
-  border: 1px solid #00bfff;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px rgba(0,191,255,0.07);
+  background: rgba(16, 32, 54, 0.85);
+  border: 1px solid #00ccff;
+  border-left: 4px solid #00ccff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,191,255,0.07);
   padding: 2rem 1.5rem;
-  transition: transform 0.2s, box-shadow 0.2s;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card h3 {
   color: #00ccff;
   margin-bottom: 0.7rem;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .project-card p {
   color: #e0f7ff;
   margin-bottom: 1.2rem;
   font-size: 1rem;
+  text-align: left;
 }
 
 .project-card a {
   color: #fff;
-  background: #00bfff;
+  background: linear-gradient(to right, #0077cc, #00bfff);
   padding: 0.5rem 1.2rem;
-  border-radius: 20px;
+  border-radius: 30px;
   text-decoration: none;
-  font-weight: 500;
-  transition: background 0.2s;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
   align-self: flex-start;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
 }
 
 .project-card a:hover {
-  background: #0077cc;
+  background: linear-gradient(to right, #00bfff, #0077cc);
+  transform: scale(1.05);
+  box-shadow: 0 4px 18px #00bfff44;
 }
-
-
-
-
 .contact-section {
   padding: 3rem 2rem;
   max-width: 700px;
